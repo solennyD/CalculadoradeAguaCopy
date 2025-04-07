@@ -1,17 +1,30 @@
 body{
     color: black;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    background-color: black;
+    background-color: #fff;
     
     
 }
 
 h1{
-    color: black;
-    text-shadow: 2px 2px 20px black, 5px 2px 25px rgb(8, 233, 249);
-    margin-left: 22%;
+    color: #fff;
+    font-size: 2rem;
+    background: url(https://cdn.pixabay.com/photo/2013/04/14/20/24/water-103817_640.jpg) center;
+    position: absolute;
+    background-size:cover ;
+    background-clip: text;
+    color: transparent;
+    animation: animate 10s linear infinite;
+    margin-left: 8%;
+   
 }
 
+fieldset{
+    border-radius: 500px;
+    line-height: 30px; 
+    padding-top: 50px;
+    
+}
 
 h2{
     color: #fff;
@@ -33,14 +46,7 @@ h2{
     }
 }
 
-fieldset{
-    border-radius: 500px;
-    line-height: 30px; 
-    box-shadow: 0px 3px 19px 2px rgb(8, 233, 249), 0 600px 285px 10px rgba(10, 10, 10, 0.19);
-    background-image: url(/img/water3.gif);
-    padding-top: 30px;
-    
-}
+
 
 .entrada {
     padding: 100px;
