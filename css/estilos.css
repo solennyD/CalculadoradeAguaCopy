@@ -1,6 +1,7 @@
 body{
     color: black;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: black;
     
     
 }
@@ -9,6 +10,27 @@ h1{
     color: black;
     text-shadow: 2px 2px 20px black, 5px 2px 25px rgb(8, 233, 249);
     margin-left: 22%;
+}
+
+
+h2{
+    color: #fff;
+    font-size: 10rem;
+    padding: 10%;
+    background: url(https://cdn.pixabay.com/photo/2013/04/14/20/24/water-103817_640.jpg) center;
+    position: absolute;
+    background-size:cover ;
+    background-clip: text;
+    color: transparent;
+    animation: animate 10s linear infinite;
+    
+ 
+}
+
+@keyframes animate {
+    to{
+        background-position-x:-200px ;
+    }
 }
 
 fieldset{
