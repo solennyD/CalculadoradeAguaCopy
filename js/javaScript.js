@@ -1,5 +1,5 @@
 
-function CalculadoraAgua() //en kilogramo
+function CalculadoraAguaKg() //en kilogramo
 {
     let pesoKg = parseInt(prompt(`Digite el peso en kg`));
     let equivalente = parseFloat();
@@ -25,7 +25,9 @@ function CalculadoraAgua() //en kilogramo
     y a su vez se divide en 1000, equivalente me guarda el valor de convertir ML a L, y a esa variable le doy salida. */
 
 }
-function CalculadoraAgua() //En libras
+
+
+function CalculadoraAguaLb() //En libras
 {
     let peso = parseInt(prompt(`Digite el peso`));
     const ml = 35;
@@ -51,7 +53,9 @@ function CalculadoraAgua() //En libras
     por 35 que es el valor de mililitro y ese valor se almacena en la variable (kilos) a la cual le doy salida por pantalla. */
 
 }
-/** */
+
+
+ 
 
 
 
